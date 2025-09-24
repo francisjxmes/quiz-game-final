@@ -35,3 +35,24 @@ The objective is simple: answer as many questions correctly as you can! The game
 The quiz is built using a simple data model:
 * Question List: A list of dictionaries containing question and answer pairs.
 * The quiz uses basic string comparison for answer checking after stripping and converting input to lowercase.
+
+### Question and Answer Game Loop
+* A list of predefined trivia questions from topics like geography, pop culture, and politics.
+
+### Case-Insensitive Validation
+* User answers are converted to lowercase before comparison, making the game more forgiving and user-friendly.
+
+### Score Tracking
+* The game keeps track of correct answers and shows the final score at the end of each round.
+
+### Replay Option
+* After each quiz round, the player can choose to play again or exit the game.
+
+### Input Validation
+* Prevents empty inputs by asking the player to enter a valid response.
+
+## Data Model
+
+The quiz is built using a simple data model:
+* Question List: A list of dictionaries containing question and answer pairs.
+* The quiz uses basic string comparison for answer checking after stripping and converting input to lowercase.
