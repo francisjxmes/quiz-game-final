@@ -20,9 +20,9 @@ git clone https://github.com/francisjxmes/quiz-game-final.git
 2. Navigate into the project folder:
 cd quiz-game-final
 3. Install the required dependencies:
-pip install -r requirements.txt
+pip OR pip3 install -r requirements.txt
 4. Run the game:
-python run.py
+python OR python3 run.py
 5. Follow the on-screen instructions to answer questions and replay if desired.
 
 ## Features
