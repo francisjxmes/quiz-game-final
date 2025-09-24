@@ -12,3 +12,5 @@ The objective is simple: answer as many questions correctly as you can! The game
 * Players receive feedback after each response: "Correct!" or "Wrong!", along with the correct answer.
 * After the final question, the total score is displayed.
 * The game asks whether you'd like to play again, allowing for endless fun and learning.
+
+## Features
