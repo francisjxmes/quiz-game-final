@@ -57,6 +57,18 @@ The game has been manually tested to ensure:
 * Code passed through a Python linter (PEP8) with no major issues.
 * Input handling has been manually tested with edge cases like whitespace and different casings.
 
+## Steps Taken to Deploy
+
+1. Forked or cloned the repository to my local machine.
+2. Created a new Heroku app from the Heroku dashboard.
+3. Added two buildpacks in this order:
+   - `heroku/python`
+   - `heroku/nodejs`
+4. Created a Config Var:
+   - `PORT` set to `8000`
+5. Connected the GitHub repository to the Heroku app.
+6. Deployed the `main` branch via GitHub in the Heroku dashboard.
+
 ## Credits 
 * Online resrouces such as youtube and W3C for extra learning
 * Code Institute for the project guidelines
