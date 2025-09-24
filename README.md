@@ -13,6 +13,18 @@ The objective is simple: answer as many questions correctly as you can! The game
 * After the final question, the total score is displayed.
 * The game asks whether you'd like to play again, allowing for endless fun and learning.
 
+## How to Run the Game Locally
+
+1. Clone the repository to your local machine:
+git clone https://github.com/francisjxmes/quiz-game-final.git
+2. Navigate into the project folder:
+cd quiz-game-final
+3. Install the required dependencies:
+pip install -r requirements.txt
+4. Run the game:
+python run.py
+5. Follow the on-screen instructions to answer questions and replay if desired.
+
 ## Features
 
 ### Question and Answer Game Loop
