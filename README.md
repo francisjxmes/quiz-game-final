@@ -1,32 +1,14 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+## Pop Quiz Game
 
-Welcome,
+Pop Quiz Game is a Python terminal game that tests your knowledge with a series of fun and challenging trivia questions. 
 
-This is the Code Institute student template for deploying your third portfolio project, the Python command-line project. The last update to this file was: **May 14, 2024**
+The objective is simple: answer as many questions correctly as you can! The game keeps score and gives feedback after each answer, making it both educational and entertaining.
 
-## Reminders
+## How to Play
 
-- Your code must be placed in the `run.py` file
-- Your dependencies must be placed in the `requirements.txt` file
-- Do not edit any of the other files or your code may not deploy properly
-
-## Creating the Heroku app
-
-When you create the app, you will need to add two buildpacks from the _Settings_ tab. The ordering is as follows:
-
-1. `heroku/python`
-2. `heroku/nodejs`
-
-You must then create a _Config Var_ called `PORT`. Set this to `8000`
-
-If you have credentials, such as in the Love Sandwiches project, you must create another _Config Var_ called `CREDS` and paste the JSON into the value field.
-
-Connect your GitHub repository and deploy as normal.
-
-## Constraints
-
-The deployment terminal is set to 80 columns by 24 rows. That means that each line of text needs to be 80 characters or less otherwise it will be wrapped onto a second line.
-
----
-
-Happy coding!
+* The game presents a series of general knowledge questions, one at a time.
+* Players type their answers into the terminal.
+* Answers are case-insensitive, and the game continues until all questions are answered.
+* Players receive feedback after each response: "Correct!" or "Wrong!", along with the correct answer.
+* After the final question, the total score is displayed.
+* The game asks whether you'd like to play again, allowing for endless fun and learning.
