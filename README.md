@@ -4,7 +4,7 @@ Pop Quiz Game is a Python terminal game that tests your knowledge with a series 
 
 The objective is simple: answer as many questions correctly as you can! The game keeps score and gives feedback after each answer, making it both educational and entertaining.
 
-[Here's the live link to my project](https://quiz-game-final-7d3a4ba590ea.herokuapp.com/)
+[Here's the live link to my project](https://quiz-game-francis-f4d728a94ee7.herokuapp.com/)
 
 ## How to Play
 
